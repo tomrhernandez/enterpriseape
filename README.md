@@ -1,4 +1,4 @@
-Enterprice Ape
+Enterprise Ape
 ==============
 
 Powerful Software
