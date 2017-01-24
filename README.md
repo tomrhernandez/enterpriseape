@@ -1,24 +1,29 @@
+Enterprice Ape
+==============
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Powerful Software
+-----------------
 
+### Welcome to the repository
 
-Welcome to your Rails project on Cloud9 IDE!
+Feel free to access [the application](https://enterpri-ape.herokuapp.com/).
 
-To get started, just do the following:
+> ## Duis aliquam dui in lorem feugiat tempor.
+>
+> Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut at elementum nulla. Nam augue enim, volutpat non sodales vel, dapibus eu risus.
+>
+> Cras justo nisi, euismod vel nulla non, pulvinar tristique *dui*.
 
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://enterpriseape-tomrhernandez.c9users.io/).
+Cras justo nisi, euismod vel nulla non, pulvinar tristique **dui**.
 
-Happy coding!
-The Cloud9 IDE team
+### Crazy good software
+* Rapid development
++ Tested
+- 24/7 support
 
+### Reasons to choose us
+1. Price
+2. Precision
+3. Performance
 
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+This is what ruby code would look like `puts 'Hello World'`
