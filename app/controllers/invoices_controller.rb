@@ -24,6 +24,18 @@ class InvoicesController < ApplicationController
   def edit
   end
 
+  # Method for inspecting params
+  #def create
+  #  logger.warn "*** BEGIN RAW REQUEST HEADERS ***"
+  #    self.request.env.each do |header|
+  #      logger.warn "#{header[0]}:#{header[1]}"
+  #      #logger.warn "#{header[1]}"
+  #    end
+  #  logger.warn "*** END RAW REQUEST HEADERS ***"
+  #  
+  #end
+  
+  
   # POST /invoices
   # POST /invoices.json
   def create
