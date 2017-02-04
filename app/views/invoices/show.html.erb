@@ -17,7 +17,11 @@
 
 <p>
   <strong>Salesperson:</strong>
-  <%= @invoice.employee.name %>
+  <% unless @invoice.employee.nil? %>
+    <%= @invoice.employee.name %>
+  <% else %>
+    <%= "No Salesperson" %>
+  <% end %>
 </p>
 <div class="media">
   <div class="media-body">
@@ -37,7 +41,7 @@
             <td><h4><%= purchase.name %></h4></td>
             <td><h4><%= purchase.category %></h4></td>
             <td><h4><%= purchase.quantity %></h4></td>
-            <td><h4><%= purchase.price %></h4></td>
+            <td><h4><%= number_to_currency(purchase.price) %></h4></td>
             <td><h4><%= link_to 'Delete', [@invoice, purchase], method: :delete, data: {confirm: "Are you sure you want to delete \"#{purchase.name}\"?"} %></h4></td>
           </tr>
         <% end %>
